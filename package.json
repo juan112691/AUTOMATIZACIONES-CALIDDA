@@ -1,0 +1,24 @@
+{
+  "name": "automatizaciones-calidda",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "keywords": [
+    "cucumber",
+    "cypress",
+    "javascript"
+  ],
+  "author": "Juan Carlos",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^14.1.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor":{
+    "nonGlobalStepDefinitions":false,
+    "step_definitions":"cypress/e2e/test"
+  }
+}
