@@ -6,7 +6,7 @@ Given('Un usuario ingresa a la web Calidda', () => {
   login.visit();
 });
 
-When('El usuario ingresa las credenciales {string} y {string}',(username, password)=>{
+When('El usuario ingresa las credenciales {string} y {string}', (username, password) => {
     login.ingresarEmailPasword(username, password); 
 });
 
